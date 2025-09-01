@@ -25,6 +25,13 @@ const nextConfig: NextConfig = {
     // 构建时忽略ESLint错误
     ignoreDuringBuilds: true,
   },
+  // Add allowed origins for Server Actions
+  allowedDevOrigins: [
+    'preview-chat-604bc9f6-3e05-4bdb-bbfe-1038ce03af7f.space.z.ai',
+    'ws-bbd-a-fafce-raajpbedhy.cn-hongkong-vpc.fcapp.run',
+    'http://localhost:3000',
+    'https://localhost:3000',
+  ],
 };
 
 export default nextConfig;

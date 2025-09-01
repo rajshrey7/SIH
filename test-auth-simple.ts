@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import NextAuth from "next-auth"
 import GitHub from "next-auth/providers/github"
 
@@ -11,12 +10,3 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
   ],
   secret: process.env.AUTH_SECRET,
 })
-=======
-// src/auth.ts
-import { getServerSession } from "next-auth";
-import { authOptions } from "@/app/api/auth/[...nextauth]/route";
-
-export async function auth() {
-  return await getServerSession(authOptions);
-}
->>>>>>> d6a375d (Initial commit: Next.js + WebSocket + Auth setup)

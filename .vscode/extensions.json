@@ -1,0 +1,20 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "Prisma.prisma",
+    "bradlc.vscode-tailwindcss",
+    "pmneo.tsimporter",
+    "ms-vscode.vscode-typescript-next",
+    "christian-kohler.path-intellisense",
+    "formulahendry.auto-rename-tag",
+    "bradlc.vscode-tailwindcss",
+    "austenc.tailwind-classes",
+    "heybourn.headwind",
+    "vivaxy.vscode-conventional-commits",
+    "ms-vscode.vscode-json",
+    "mrmlnc.vscode-json-schemas",
+    "redhat.vscode-yaml",
+    "vscode-icons-team.vscode-icons"
+  ]
+}
